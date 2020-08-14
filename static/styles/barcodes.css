@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: rgb(181, 218, 230);
+}
+img {
+    height: 20%;
+    width: 20%;
+    margin: 1% 5%;
+}
+
+h1 {
+    color : #204051;
+}
+
+input {
+    font-family: "Asap", sans-serif;
+    position: relative;
+    margin: 1% 3%;
+    display: block;
+    border-radius: 5px;
+    font-size: 16px;
+    background: white;
+    width: 100%;
+    border: 1;
+    border-color: #e9e2d0;
+    padding: 10px 10px;
+    margin: 15px -10px;
+
+}
+button {
+    font-family: "Asap", sans-serif;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 20%;
+}
+button:hover {
+    background-color: green;
+}
+a{
+    color : #12cad6;
+    display: flex;
+    align-content: flex-start;
+    text-decoration: none;
+    
+}
+a:hover {
+    color: #33939e;
+    font-size: large;
+}
+.login {
+    border-radius: 3px;
+    box-shadow: 0 14px 28px 0 rgba(0,0,0,.3);
+    border-color: rgba(0, 0, 0, 0.342);
+    margin:10% 25%;
+    width: 50%;
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 30px;
+    min-height: 183px;
+    background: #fff;
+}
+.login:hover{
+    box-shadow: 0 8px 12px 8px rgba(0, 0, 0, 0.342);
+}
+.login:active{
+    box-shadow: 0 3px 3px 3px rgba(0, 0, 0, 0.384);
+}
+
